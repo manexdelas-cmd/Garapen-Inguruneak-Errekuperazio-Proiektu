@@ -16,6 +16,19 @@ public class Main {
 		System.out.println(pila.atera());
 		System.out.println(pila.atera());
 		System.out.println(pila.hutsikDago());
+		
+		// Ilara
+		Ilara ilara = new Ilara(3);
+		ilara.sartu(new Txartela(1, "Pantaila apurtuta", "Ez da piztzen", 2, 20261030));
+		ilara.sartu(new Txartela(2, "Wifi ez dabil", "Konexio galtzen du", 1, 20261031));
+		ilara.sartu(new Txartela(3, "Inprimagailua blokeatuta", "Papera trabatuta", 3, 20261101));
+		System.out.println(ilara.beteDago());
+		System.out.println(ilara.atera());
+		ilara.sartu(new Txartela(4, "Pasahitza ahaztuta", "Ezin du sartu", 2, 20261102));
+		System.out.println(ilara.atera());
+		System.out.println(ilara.atera());
+		System.out.println(ilara.atera());
+		System.out.println(ilara.hutsikDago());
 	}
 
 }
